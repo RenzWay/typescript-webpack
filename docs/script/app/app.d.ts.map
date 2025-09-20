@@ -1,0 +1,1 @@
+{"version":3,"file":"app.d.ts","sourceRoot":"","sources":["../../../src/script/app/app.ts"],"names":[],"mappings":"AAGA,UAAU,SAAS;IACjB,OAAO,EAAE,WAAW,CAAC;CACtB;AAaD,MAAM,CAAC,OAAO,OAAO,GAAG;IACtB,OAAO,CAAC,OAAO,CAAc;gBAEjB,EAAE,OAAO,EAAE,EAAE,SAAS;IAI5B,UAAU,IAAI,OAAO,CAAC,IAAI,CAAC;CAyBlC"}

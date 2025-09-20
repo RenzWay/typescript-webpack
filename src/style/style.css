@@ -1,0 +1,285 @@
+@import "tailwindcss";
+
+:root {
+  --black: #000501;
+  --cambrige-blue: #73ab84;
+  --celadon: #99d19c;
+  --tiffany-blue: #79c7c5;
+  --non-photo-blue: #ade1e5;
+  --non-photo-blue-2: #80ced7;
+  --cerulean: #007ea7;
+  --pruslian: #003249;
+  --outer-space: #343f3e;
+  --amethyst: #9966cc;
+  --alice-blue: #dcedff;
+  --space-cadet: #111d4a;
+  --aqua: #6ef9f5;
+  --turqoise: #41ead4;
+  --prussian-blue: #003249;
+  --celeste: #bffff1;
+  --platinum: #ccdbdc;
+}
+
+@layer base {
+  body {
+    @apply bg-[var(--black)] text-white font-sans;
+    position: relative;
+    z-index: 0;
+  }
+
+  body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background: radial-gradient(
+        circle at 20% 30%,
+        var(--celadon) 0%,
+        transparent 25%
+      ),
+      radial-gradient(
+        circle at 80% 70%,
+        var(--non-photo-blue-2) 0%,
+        transparent 30%
+      ),
+      linear-gradient(to bottom, var(--black) 80%, var(--outer-space) 100%);
+    z-index: -1;
+    pointer-events: none;
+  }
+
+  /* Heading Styles */
+  h1 {
+    @apply text-4xl font-bold  mb-4;
+  }
+
+  h2 {
+    @apply text-3xl font-semibold  mb-3;
+  }
+
+  h3 {
+    @apply text-2xl font-semibold  mb-3;
+  }
+
+  h4 {
+    @apply text-xl font-medium  mb-2;
+  }
+
+  h5 {
+    @apply text-lg font-medium  mb-2;
+  }
+
+  h6 {
+    @apply text-base font-medium  mb-2;
+  }
+
+  /* Paragraph */
+  p {
+    @apply leading-relaxed mb-4;
+  }
+
+  /* Links */
+  a {
+    @apply text-blue-600 hover:text-blue-800 transition-colors;
+  }
+}
+
+.link-btn {
+  @apply bg-white p-4 rounded-md text-black font-bold hover:bg-gray-200 hover:text-blue-700 no-underline transition-all;
+}
+
+@keyframes fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fade-slide-down {
+  from {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes gradient-move {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.header-home {
+  animation: fade-slide-down 1s ease forwards;
+  background-size: 200% 200%;
+  animation: gradient-move 8s ease infinite, fade-slide-down 1s ease forwards;
+}
+
+.header-home h1 {
+  animation: fade-slide-down 1.2s ease forwards;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+}
+
+.header-home h6 {
+  animation: fade-slide-down 1.5s ease forwards;
+}
+
+/* Simple Card Styles */
+.card {
+  background: linear-gradient(135deg, var(--outer-space), var(--prussian-blue));
+  border: 1px solid var(--cambrige-blue);
+  border-radius: 12px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+  overflow: hidden;
+  transition: all 0.3s ease;
+  backdrop-filter: blur(10px);
+  animation: fade-up 1s ease forwards;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 48px rgba(115, 171, 132, 0.2);
+  border-color: var(--tiffany-blue);
+}
+
+.card-header {
+  background: linear-gradient(
+    135deg,
+    var(--cambrige-blue),
+    var(--tiffany-blue)
+  );
+  color: white;
+  padding: 1rem 1.5rem;
+  border-bottom: 1px solid rgba(115, 171, 132, 0.3);
+  font-weight: 600;
+}
+
+.card-body {
+  padding: 1.5rem;
+  color: white;
+}
+
+.card-footer {
+  background: rgba(52, 63, 62, 0.5);
+  border-top: 1px solid rgba(115, 171, 132, 0.2);
+  padding: 1rem 1.5rem;
+}
+
+/* Card Title */
+.card-title {
+  margin: 0 0 1rem 0;
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: white;
+}
+
+/* Card Text */
+.card-text {
+  margin-bottom: 1rem;
+  line-height: 1.6;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+/* Card Variants */
+
+/* Dark Card */
+.card-dark {
+  background: var(--black);
+  border-color: var(--outer-space);
+}
+
+.card-dark .card-header {
+  background: var(--outer-space);
+  border-bottom-color: var(--cambrige-blue);
+}
+
+/* Aqua Card */
+.card-aqua {
+  background: linear-gradient(135deg, var(--prussian-blue), var(--space-cadet));
+  border-color: var(--aqua);
+}
+
+.card-aqua .card-header {
+  background: linear-gradient(135deg, var(--aqua), var(--turqoise));
+  color: var(--black);
+}
+
+.card-aqua .card-title {
+  color: var(--black);
+}
+
+/* Purple/Amethyst Card */
+.card-purple {
+  background: linear-gradient(135deg, var(--space-cadet), var(--black));
+  border-color: var(--amethyst);
+}
+
+.card-purple .card-header {
+  background: linear-gradient(135deg, var(--amethyst), var(--cerulean));
+}
+
+/* Minimal Card */
+.card-minimal {
+  background: rgba(52, 63, 62, 0.8);
+  border: 1px solid rgba(204, 219, 220, 0.2);
+}
+
+.card-minimal .card-header {
+  background: rgba(115, 171, 132, 0.2);
+  color: var(--celeste);
+}
+
+/* Small Card */
+.card-sm {
+  font-size: 0.875rem;
+}
+
+.card-sm .card-header,
+.card-sm .card-body,
+.card-sm .card-footer {
+  padding: 0.75rem 1rem;
+}
+
+.card-sm .card-title {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Large Card */
+.card-lg {
+  font-size: 1.125rem;
+}
+
+.card-lg .card-header,
+.card-lg .card-body,
+.card-lg .card-footer {
+  padding: 2rem;
+}
+
+.card-lg .card-title {
+  font-size: 1.5rem;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .card {
+    margin: 0 1rem;
+  }
+
+  .card-header,
+  .card-body,
+  .card-footer {
+    padding: 1rem;
+  }
+}
