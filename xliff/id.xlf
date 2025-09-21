@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+<file target-language="id" source-language="en" original="lit-localize-inputs" datatype="plaintext">
+<body>
+<trans-unit id="saf45ed0183a9c8cd">
+  <source>✅ Webpack 5 + Babel</source>
+  <target>✅ Webpack 5 + Babel</target>
+</trans-unit>
+<trans-unit id="sd52a980b39194bb9">
+  <source>⚙️ Development &amp; Production Modes</source>
+  <target>⚙️ Mode Development &amp; Production</target>
+</trans-unit>
+<trans-unit id="s13b417677a49963f">
+  <source>⌨️ Typescript language</source>
+  <target>⌨️ Bahasa Typescript</target>
+</trans-unit>
+<trans-unit id="s5f659885503d4192">
+  <source>🎨 CSS asset loader support</source>
+  <target>🎨 Dukungan CSS asset loader</target>
+</trans-unit>
+<trans-unit id="s2cf50c76488d0158">
+  <source>🧭 SPA (Single Page Application) Routing</source>
+  <target>🧭 SPA (Single Page Application) Routing</target>
+</trans-unit>
+<trans-unit id="se4d6377c76a28ae3">
+  <source>📄 Auto HTML via HtmlWebpackPlugin</source>
+  <target>📄 HTML Otomatis via HtmlWebpackPlugin</target>
+</trans-unit>
+<trans-unit id="s9ced5a7285498e70">
+  <source>Clone the repo: git clone https://github.com/RenzWay/typescript-webpack.git</source>
+  <target>Clone repositori: git clone https://github.com/RenzWay/typescript-webpack.git</target>
+</trans-unit>
+<trans-unit id="sd5d2cefba07df76b">
+  <source>Remove Remote: git remote remove origin</source>
+  <target>Hapus Remote: git remote remove origin</target>
+</trans-unit>
+<trans-unit id="s21968f33433c7034">
+  <source>Install: npm install</source>
+  <target>Install: npm install</target>
+</trans-unit>
+<trans-unit id="s01ada767179d5de4">
+  <source>Start dev server: npm run dev</source>
+  <target>Jalankan dev server: npm run dev</target>
+</trans-unit>
+<trans-unit id="s3cbdfddb2e50e923">
+  <source>Edit code in src/ &amp; see it live!</source>
+  <target>Edit kode di src/ &amp; lihat langsung hasilnya!</target>
+</trans-unit>
+<trans-unit id="sb6447615b38d31c2">
+  <source>Create pages inside the pages folder.</source>
+  <target>Buat halaman di dalam folder pages.</target>
+</trans-unit>
+<trans-unit id="sfe4170b8c36ff3cf">
+  <source>Import those pages into router.js.</source>
+  <target>Import halaman tersebut ke router.js.</target>
+</trans-unit>
+<trans-unit id="sc7cf5d8dc79d3c60">
+  <source>Use URL hash (e.g., #/) to navigate between pages.</source>
+  <target>Gunakan URL hash (contoh: #/) untuk navigasi antar halaman.</target>
+</trans-unit>
+<trans-unit id="sef04f9c2dbcf609f">
+  <source>Try switching pages without full reload!</source>
+  <target>Coba pindah halaman tanpa reload penuh!</target>
+</trans-unit>
+<trans-unit id="s4bbae9269139d054">
+  <source>Don't worry — using ( #/ ) won't cause any errors.</source>
+  <target>Jangan khawatir — menggunakan ( #/ ) tidak akan menyebabkan error.</target>
+</trans-unit>
+<trans-unit id="se0f98e9b3037b56c">
+  <source>A simple starter for Typescript with Webpack</source>
+  <target>Starter sederhana untuk Typescript dengan Webpack</target>
+</trans-unit>
+<trans-unit id="sa9118b036e508a0b">
+  <source>Visit Github</source>
+  <target>Kunjungi Github</target>
+</trans-unit>
+<trans-unit id="s4f2980ecb792cb50">
+  <source>What's Included?</source>
+  <target>Apa Saja yang Disertakan?</target>
+</trans-unit>
+<trans-unit id="s2eb45e1ae02bfa0a">
+  <source>How to use?</source>
+  <target>Bagaimana cara menggunakan?</target>
+</trans-unit>
+<trans-unit id="s1f22ae160e2aca9a">
+  <source>Routing Usage</source>
+  <target>Penggunaan Routing</target>
+</trans-unit>
+</body>
+</file>
+</xliff>

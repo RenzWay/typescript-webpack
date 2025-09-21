@@ -1,1 +1,0 @@
-{"version":3,"file":"fab.d.ts","sourceRoot":"","sources":["../../../src/script/components/fab.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,UAAU,EAAQ,KAAK,oBAAoB,EAAE,MAAM,KAAK,CAAC;AAElE,qBAAa,MAAO,SAAQ,UAAU;IAE7B,QAAQ,UAAS;IAGxB,MAAM,CAAC,UAAU,EAAE,oBAAoB,CAErC;IAGF,SAAS,CAAC,gBAAgB,IAAI,WAAW,GAAG,gBAAgB;IAK5D,OAAO,CAAC,UAAU;IAKlB,SAAS,CAAC,MAAM;CAsCjB"}

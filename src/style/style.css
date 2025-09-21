@@ -135,6 +135,19 @@
   animation: fade-slide-down 1.5s ease forwards;
 }
 
+.lang-toggle {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background: var(--cambrige-blue);
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
 /* Simple Card Styles */
 .card {
   background: linear-gradient(135deg, var(--outer-space), var(--prussian-blue));
